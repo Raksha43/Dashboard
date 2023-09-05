@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.,maximum-scale=1">
+    <title>Admin</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2> <span class="lab la-accusoft"></span><span>Accusoft </span></h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li><a href="" class="active"><span class="las la-igloo"></span>
+                    <span>Dashboard</span></a>
+                </li>
+                <li><a href=""><span class="las la-users"></span>
+                    <span>Customers</span></a>
+                </li>
+                <li><a href=""><span class="las la-clipboard-list"></span>
+                    <span>Projects</span></a>
+                </li>
+                <li><a href=""><span class="las la-shopping-bag"></span>
+                    <span>Orders</span></a>
+                </li>
+                <li><a href=""><span class="las la-receipt"></span>
+                    <span>Inventory</span></a>
+                </li>
+                <li><a href=""><span class="las la-user-circle"></span>
+                    <span>Accounts</span></a>
+                </li>
+                <li><a href=""><span class="las la-clipboard-list"></span>
+                    <span>Tasks</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+                Dashboard
+            </h2>
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <input type="search" placeholder="search here"/>
+                
+            </div>
+            <div class="user-wrapper">
+                <img src="" width="30px" height="20px" alt="">
+                <div>
+                    <h4>Raksha nayak</h4>
+                    <small>Super admin</small>
+                </div>
+            </div>
+        </header>
+            <main>
+                <div class="cards">
+                    <div class="card-single">
+                        <div>
+                            <h1>50</h1>
+                            <span>Customers</span>
+                        </div>
+                        <div>
+                            <span class="las la-users"></span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>65</h1>
+                            <span>Projects</span>
+                        </div>
+                        <div>
+                            <span class="las la-clipboard-list"></span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>150</h1>
+                            <span>Orders</span>
+                        </div>
+                        <div>
+                            <span class="las la-shopping-bag"></span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>$12k</h1>
+                            <span>Income</span>
+                        </div>
+                        <div>
+                            <span class="lab la-google-wallet"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-grid">
+                    <div class="projects">
+                        <div class="card-header">
+                            <h3>Recent Projects</h3>
+                            <button>See all <span class="las la-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Project Title</td>
+                                            <td>Department</td>
+                                            <td>Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                In progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop app</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                Pending
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                In progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop app</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                Pending
+                                            </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customers">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>New Customer</h3>
+                                <button>see all <span class="las la-arrow-right">
+                                </span></button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info">
+                                <img src="data:image/jpeg;base64,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" width="40px" height="40px">
+                                <div>
+                                    <h4>Lewis S. Cunningham</h4>
+                                    <small>CEO expert</small>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                 
+                       
+                            <div class="customer">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqT1SFPJaayuLMmq75fPNvVuPRw2EI2bj2JDeu0HuOxOUaowuarzdpc7Je0_HU0mRpCz4&usqp=CAU" width="40px" height="40px">
+                                <div>
+                                    <h4>Lewis S. Cunningham</h4>
+                                    <small>CEO expert</small>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                 
+                  
+                            <div class="customer">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwRv0muPfoA_xpNrJZ66Y-gchmvuuITIclTQpnSrbbYGjK3Cz0cWUsZy8kfQfxTCgiC4&usqp=CAU" width="40px" height="40px">
+                                <div>
+                                    <h4>Lewis S. Cunningham</h4>
+                                    <small>CEO expert</small>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                        
+                        
+                            <div class="customer">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMAAV7sziAAaOkqdDoF-39XI1y2oVM2h86HaIivFUTkAgwaTCJNzQv7StfQelrtDcGM0I&usqp=CAU" width="40px" height="40px">
+                                <div>
+                                    <h4>Lewis S. Cunningham</h4>
+                                    <small>CEO expert</small>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                            <div class="customer">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr02k0SGUL7FV5Gjl-6vne4h9aEDQ4Q3pzFeq2cmyzGzUPCrHUsn5qTfM5QquxBg99eVU&usqp=CAU" width="40px" height="40px">
+                                <div>
+                                    <h4>Lewis S. Cunningham</h4>
+                                    <small>CEO expert</small>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                            <div class="customer">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYdb5_8758bLxJupP6XInYff0B2HPc9W1OEWf6xHb_oSlSkUElp9CrQKlDa31J-bj10Xs&usqp=CAU" width="40px" height="40px">
+                                <div>
+                                    <h4>Lewis S. Cunningham</h4>
+                                    <small>CEO expert</small>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+       
+    </div>
+</body>
+</html>
